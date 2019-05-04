@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Michael Miano</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="script/scripts.js"></script>
+    <script src="../script/jquery-3.3.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../galleria/galleria-1.5.7.min.js"></script>
+</head>
+<body>
+    <nav id="header-static">
+        <a class="site-title" href="index.html">
+            <!--Site Logo-->
+            <img class="site-logo" src="files/logo/miano-logo.png" width="100"/>
+        </a>
+        <span id="sidenav" onclick="openNav()">&#9776;</span>
+        <!--Side Navigation-->
+        <div id="mySidenav" class="side-nav">
+            <!--Site Links-->
+            <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+            <menu>
+                <a href="index.html">Home</a>
+                <a href="pages/about.html">Resume</a>
+                <a href="pages/michael-goes-outside.html">Photos</a>
+            </menu>
+        </div>
+    </nav>
+    <!--Page Content-->
+    <div id="slider" data-type="background" data-speed="3" style="background-image:url(files/images/index/ranch.jpg);">
+        <div class="hero" style="background:rgba(0,0,0,.2);">
+            <div class="hero-content">
+                <h1 class="big-text" style="color:white;">Hi!<br />Welcome to my very own corner of the world wide web.</h1>
+            </div>
+        </div>
+        </div>
+    <footer>
+        <p class="copy">Copyright &copy; 2019 by Michael Miano</p>
+        <a href="privacy.html">Privacy</a>
+    </footer>
+</body>
+</html>
