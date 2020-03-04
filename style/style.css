@@ -379,6 +379,9 @@ main.content {
 }
 @media only screen and (max-height: 440px){
     .hero{
-        min-height:72.5vh;
+        min-height:80vh;
+    }
+    .hero-overlay{
+        min-height:80vh;
     }
 }
