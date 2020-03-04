@@ -1,0 +1,19 @@
+﻿$(function(){
+  
+    createSticky($("#sticky"));
+
+});
+
+function createSticky(sticky) {
+    
+    if (typeof sticky !== "undefined") {
+
+        var pos = sticky.offset().top + 1,
+                win = $(window);
+            
+        win.on("scroll", function() {
+            win.scrollTop() >= pos ? sticky.addClass("sticky-secondary-nav") : sticky.removeClass("sticky-secondary-nav");      
+        });         
+    }
+}
+
