@@ -378,10 +378,7 @@ main.content {
     }
 }
 @media only screen and (max-height: 440px){
-    .profile-image-main{
-        display:none;
-    }
-    .content-top-container{
-        display:none;
+    .hero{
+        min-height:72.5vh;
     }
 }
