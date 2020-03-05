@@ -19,70 +19,7 @@ body {
     font-family: Quicksand, sans-serif;
     margin: 0;
     background-color: aliceblue;
-    /*
-    background: linear-gradient(178deg, #f0f8ff, #ffefd5);
-    background-size: 400% 400%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    -o-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite; */
 }
-@-webkit-keyframes AnimationName {
-    0% {
-        background-position: 48% 0%
-    }
-
-    50% {
-        background-position: 53% 100%
-    }
-
-    100% {
-        background-position: 48% 0%
-    }
-}
-
-@-moz-keyframes AnimationName {
-    0% {
-        background-position: 48% 0%
-    }
-
-    50% {
-        background-position: 53% 100%
-    }
-
-    100% {
-        background-position: 48% 0%
-    }
-}
-
-@-o-keyframes AnimationName {
-    0% {
-        background-position: 48% 0%
-    }
-
-    50% {
-        background-position: 53% 100%
-    }
-
-    100% {
-        background-position: 48% 0%
-    }
-}
-
-@keyframes AnimationName {
-    0% {
-        background-position: 48% 0%
-    }
-
-    50% {
-        background-position: 53% 100%
-    }
-
-    100% {
-        background-position: 48% 0%
-    }
-}
-
 .header {
     background-color: white;
     position: fixed;
@@ -105,14 +42,6 @@ body {
     color: #333333;
     z-index: 900;
     transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
-    /*
-    background: linear-gradient(178deg, #f0f8ff, #ffefd5);
-    background-size: 400% 400%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    -o-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-    */
 }
 
 .header-active {
