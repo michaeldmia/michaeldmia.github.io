@@ -334,6 +334,9 @@ main.content {
     .hero {
         min-height: 80vh;
     }
+    .hero-overlay{
+        min-height:80vh;
+    }
     .hero-overlay.w {
         min-height: 80vh;
     }
