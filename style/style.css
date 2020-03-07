@@ -186,6 +186,10 @@ body {
     background-size: cover;
     background-position: center;
 }
+.hero-overlay{
+    min-height:60vh;
+    background-color:rgba(0,0,0,0);
+}
 .hero-overlay.b{
     min-height:60vh;
     background-color:rgba(0,0,0,0.5);
@@ -330,7 +334,6 @@ main.content {
     .hero {
         min-height: 80vh;
     }
-
     .hero-overlay.w {
         min-height: 80vh;
     }
