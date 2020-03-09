@@ -129,6 +129,7 @@ body {
     object-position: left;
     width: auto;
 }
+
 /*****/
 .accordion {
     background-color: white;
@@ -331,10 +332,15 @@ main.content {
 
     main.content {
         width: 100%;
+        margin-bottom:0;
     }
 
     .content-top {
         width: 100%;
+    }
+    .footer{
+        margin-top:0;
+        background-color:white;
     }
 }
 
