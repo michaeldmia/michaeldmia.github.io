@@ -324,7 +324,6 @@ main.content {
 }
 @media only screen and (max-width: 799px) {
     body{
-        background:white;
     }
     .row {
         display: unset;
