@@ -319,7 +319,9 @@ main.content {
     align-items: center;
     margin-top: 105px;
 }
-
+.footer-content {
+    display: unset;
+}
 @media only screen and (max-width: 799px) {
     body{
         background:white;
