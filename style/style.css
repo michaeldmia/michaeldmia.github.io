@@ -133,7 +133,6 @@ body {
 /*****/
 .accordion {
     background-color: white;
-    color: #333333;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -160,12 +159,10 @@ body {
     transition: 0.3s;
     background-color: white;
     overflow: hidden;
-    color: #333333;
 }
 
 .accordion:after {
     content: '\002B';
-    color: #777;
     font-weight: bold;
     float: right;
     margin-left: 5px;
