@@ -303,8 +303,6 @@ main.content {
 }
 /*footer*/
 .footer {
-    border-top: thin solid;
-    border-top-color: rgba(0,0,0,0.1);
     background-color: rgba(0,14,27,1);
     color:white;
     padding-left: 5%;
