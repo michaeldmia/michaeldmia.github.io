@@ -118,6 +118,7 @@ body {
 }
 .site-logo {
     height: 4em;
+    max-width:33%;
     object-fit: contain;
     object-position: left;
     width: auto;
