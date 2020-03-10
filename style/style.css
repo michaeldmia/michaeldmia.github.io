@@ -216,6 +216,9 @@ body {
 .has-content{
 	min-height:80vh;
 }
+.hero-overlay.has-content{
+	min-height:80vh;
+}
 
 .hero-content {
     width: 90%;
