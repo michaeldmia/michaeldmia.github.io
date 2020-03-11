@@ -256,13 +256,15 @@ body {
 
 .content-top {
     background: white;
-    height: 125px;
+    height:55px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     margin: 0 auto !important;
 }
-
+.content-top.has-profile-image{
+	height:125px;
+}
 .content-top-container {
     position: absolute;
     bottom: 0px;
