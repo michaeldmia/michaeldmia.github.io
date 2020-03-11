@@ -20,6 +20,7 @@ body {
     margin: 0;
     background-color: aliceblue;
     color:#000000;
+	overflow-x:hidden;
 }
 
 .header {
@@ -266,6 +267,7 @@ main.content {
     padding-top: 0.01%;
     padding-bottom: 125px;
     margin: 0 auto !important;
+	overflow-x:hidden;
 }
 /*Multi Column Layout*/
 .row:after {
