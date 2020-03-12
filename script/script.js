@@ -27,3 +27,6 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 } 
+
+var footerParaHeight = $(".footer").height();
+$(".content").css("margin-bottom",footerParaHeight);

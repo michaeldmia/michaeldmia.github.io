@@ -33,6 +33,7 @@ body {
     background-color: aliceblue;
     color:#000000;
 	overflow-x:hidden;
+	position:relative;
 }
 
 .header {
@@ -70,7 +71,6 @@ body {
     height: 85px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: none;
     left: 0;
     right: 0;
 }
@@ -279,7 +279,8 @@ main.content {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 0.01%;
-    padding-bottom: 125px;
+	padding-bottom:125px;
+	position:relative;
     margin: 0 auto !important;
 	overflow-x:hidden;
 }
@@ -337,7 +338,7 @@ main.content {
     display: flex;
     -ms-flex-align: center;
     -webkit-align-items: center;
-    -webkit-box-align: center
+    -webkit-box-align: center;
 }
 .footer-content {
    display:block;
