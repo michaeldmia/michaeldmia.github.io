@@ -262,6 +262,10 @@ body {
     margin-right: auto;
     width: 90%;
     margin: 0 auto !important;
+    border-top:thin solid;
+    border-right:thin solid;
+    border-left:thin solid;
+    border-color:rgba(0,0,0,0.1);
 }
 .content-top.has-profile-image{
 	height:125px;
@@ -284,6 +288,10 @@ main.content {
 	position:relative;
     margin: 0 auto !important;
 	overflow-x:hidden;
+    border-bottom:thin solid;
+    border-left:thin solid;
+    border-right:thin solid;
+    border-color:rgba(0,0,0,0.1)
 }
 /*Multi Column Layout*/
 .row:after {
