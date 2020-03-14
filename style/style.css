@@ -37,7 +37,7 @@ body {
 }
 
 .header {
-    background-color: white;
+    background-color:rgba(255,255,255,1);
     box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
     position: fixed;
     top: 0;
@@ -56,7 +56,7 @@ body {
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    color: #333333;
+    color:rgb(0,14,27);
     z-index: 900;
     transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
 }
@@ -74,7 +74,20 @@ body {
     left: 0;
     right: 0;
 }
-
+.header-min {
+    background-color: rgba(0,14,27,0.8);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    color: white;
+    box-shadow: none;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position:fixed;
+    width:100%;
+}
 .header-content {
     width: 100%;
     margin-left: auto;
@@ -156,7 +169,8 @@ body {
     outline: none;
     font-size: 15px;
     border-bottom: thin solid;
-    border-bottom-color: rgba(0,0,0,0.2)
+    border-bottom-color: rgba(0,0,0,0.2);
+    color:inherit;
 }
 
     .accordion h2 {
@@ -166,6 +180,7 @@ body {
     .active, .accordion:hover {
         background-color: whitesmoke;
         border-bottom: none;
+        transition:background-color 0.3s;
     }
 
 .panel {
@@ -175,6 +190,7 @@ body {
     background-color: white;
     overflow: hidden;
     padding-bottom:55px;
+    color:inherit;
 }
 
 .accordion:after {
@@ -206,7 +222,9 @@ body {
 .initial {
     margin-top: 105px;
 }
-
+.initial-min{
+    margin-top:85px;
+}
 .hero {
     min-height: 60vh;
     background-repeat: no-repeat;
@@ -278,20 +296,21 @@ body {
 
 main.content {
     width: 90%;
+    color: rgb(0,14,27);
     background: white;
     margin-left: auto;
     margin-right: auto;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 0.01%;
-	padding-bottom:125px;
-	position:relative;
+    padding-bottom: 125px;
+    position: relative;
     margin: 0 auto !important;
-	overflow-x:hidden;
-    border-bottom:thin solid;
-    border-left:thin solid;
-    border-right:thin solid;
-    border-color:rgba(0,0,0,0.1)
+    overflow-x: hidden;
+    border-bottom: thin solid;
+    border-left: thin solid;
+    border-right: thin solid;
+    border-color: rgba(0,0,0,0.1);
 }
 /*Multi Column Layout*/
 .row:after {
@@ -384,29 +403,32 @@ main.content {
         margin-top:0;
     }
 }
-
-@media only screen and (max-width: 499px) {
-    .big-text {
-        font-size: 3em;
-    }
-}
-
-@media only screen and (max-height: 440px) {
-    .hero {
-        min-height: 80vh;
-    }
-    .hero-overlay{
-        min-height:80vh;
-    }
-    .hero-overlay.w {
-        min-height: 80vh;
-    }
-    .hero-overlay.b{
-        min-height:80vh;
-    }
+@media only screen and (max-height: 569px) {
     .profile-image-main {
         width: 150px;
         height: 150px;
         margin-top: -75px;
     }
+}
+@media only screen and (max-width: 499px) {
+    .big-text {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-height: 440px) {
+    .hero {
+        min-height: 80vh;
+    }
+
+    .hero-overlay {
+        min-height: 80vh;
+    }
+
+        .hero-overlay.w {
+            min-height: 80vh;
+        }
+
+        .hero-overlay.b {
+            min-height: 80vh;
+        }
 }
