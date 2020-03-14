@@ -409,6 +409,9 @@ main.content {
         height: 150px;
         margin-top: -75px;
     }
+    .content-top.has-profile-image{
+        height:75px;
+    }
 }
 @media only screen and (max-width: 499px) {
     .big-text {
