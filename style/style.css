@@ -96,7 +96,6 @@ body {
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    color: rgb(0,14,27);
     z-index: 900;
     transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
 }
