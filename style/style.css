@@ -79,14 +79,26 @@ body {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     color: white;
-    box-shadow: none;
-    height: 85px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    position:fixed;
-    width:100%;
+    height: 85px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(0,14,27);
+    z-index: 900;
+    transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
 }
 .header-content {
     width: 100%;
