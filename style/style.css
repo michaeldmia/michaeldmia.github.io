@@ -5,15 +5,28 @@
 h1, h2, h3, h4, small {
     font-family: montserrat;
 }
-.h1, .h2, .h3, .h4, .small{
-	font-family:montserrat;
-	font-weight:bolder;
-	display:block;
+
+.h1, .h2, .h3, .h4, .small {
+    font-family: montserrat;
+    font-weight: bolder;
+    display: block;
 }
-.h1{font-size:2em;}
-.h2{font-size:1.5em;}
-.h3{font-size:1.17em;}
-.h4{font-size:1em;}
+
+.h1 {
+    font-size: 2em;
+}
+
+.h2 {
+    font-size: 1.5em;
+}
+
+.h3 {
+    font-size: 1.17em;
+}
+
+.h4 {
+    font-size: 1em;
+}
 
 hr {
     border-top-color: rgba(0,0,0,0.2);
@@ -23,21 +36,22 @@ hr {
 .center {
     text-align: center;
 }
-span.center{
-	display:block;
+
+span.center {
+    display: block;
 }
 
 body {
     font-family: Quicksand, sans-serif;
     margin: 0;
     background-color: aliceblue;
-    color:#000000;
-	overflow-x:hidden;
-	position:relative;
+    color: #000000;
+    overflow-x: hidden;
+    position: relative;
 }
 
 .header {
-    background-color:rgba(255,255,255,1);
+    background-color: rgba(255,255,255,1);
     box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
     position: fixed;
     top: 0;
@@ -56,7 +70,7 @@ body {
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    color:rgb(0,14,27);
+    color: rgb(0,14,27);
     z-index: 900;
     transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
 }
@@ -74,6 +88,7 @@ body {
     left: 0;
     right: 0;
 }
+
 .header-min {
     background-color: rgba(0,14,27,1);
     -webkit-backdrop-filter: blur(20px);
@@ -99,9 +114,11 @@ body {
     z-index: 900;
     transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
 }
+
     .header-min.header-active {
         background-color: rgba(0,14,27,0.8);
     }
+
 .header-content {
     width: 100%;
     margin-left: auto;
@@ -156,9 +173,10 @@ body {
 .title {
     font-family: Montserrat;
 }
+
 .site-logo {
     height: 4em;
-    max-width:33%;
+    max-width: 33%;
     object-fit: contain;
     object-position: left;
     width: auto;
@@ -184,7 +202,7 @@ body {
     font-size: 15px;
     border-bottom: thin solid;
     border-bottom-color: rgba(0,0,0,0.2);
-    color:inherit;
+    color: inherit;
 }
 
     .accordion h2 {
@@ -194,7 +212,7 @@ body {
     .active, .accordion:hover {
         background-color: whitesmoke;
         border-bottom: none;
-        transition:background-color 0.3s;
+        transition: background-color 0.3s;
     }
 
 .panel {
@@ -203,8 +221,8 @@ body {
     transition: 0.3s;
     background-color: white;
     overflow: hidden;
-    padding-bottom:55px;
-    color:inherit;
+    padding-bottom: 55px;
+    color: inherit;
 }
 
 .accordion:after {
@@ -236,9 +254,11 @@ body {
 .initial {
     margin-top: 105px;
 }
-.initial-min{
-    margin-top:85px;
+
+.initial-min {
+    margin-top: 85px;
 }
+
 .hero {
     min-height: 60vh;
     background-repeat: no-repeat;
@@ -246,24 +266,28 @@ body {
     background-size: cover;
     background-position: center;
 }
-.hero-overlay{
-    min-height:60vh;
-    background-color:rgba(0,0,0,0);
-}
-.hero-overlay.b{
-    min-height:60vh;
-    background-color:rgba(0,0,0,0.5);
+
+.hero-overlay {
+    min-height: 60vh;
+    background-color: rgba(0,0,0,0);
 }
 
-.hero-overlay.w {
-    min-height: 60vh;
-    background-color: rgba(255, 255, 255, 0.6);
+    .hero-overlay.b {
+        min-height: 60vh;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .hero-overlay.w {
+        min-height: 60vh;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+.has-content {
+    min-height: 80vh;
 }
-.has-content{
-	min-height:80vh;
-}
-.hero-overlay.has-content{
-	min-height:80vh;
+
+.hero-overlay.has-content {
+    min-height: 80vh;
 }
 
 .hero-content {
@@ -289,19 +313,21 @@ body {
 
 .content-top {
     background: white;
-    height:55px;
+    height: 55px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     margin: 0 auto !important;
-    border-top:thin solid;
-    border-right:thin solid;
-    border-left:thin solid;
-    border-color:rgba(0,0,0,0.1);
+    border-top: thin solid;
+    border-right: thin solid;
+    border-left: thin solid;
+    border-color: rgba(0,0,0,0.1);
 }
-.content-top.has-profile-image{
-	height:125px;
-}
+
+    .content-top.has-profile-image {
+        height: 125px;
+    }
+
 .content-top-container {
     position: absolute;
     bottom: 0px;
@@ -368,7 +394,7 @@ main.content {
 /*footer*/
 .footer {
     background-color: rgba(0,14,27,1);
-    color:white;
+    color: white;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2.5%;
@@ -382,20 +408,24 @@ main.content {
     -webkit-align-items: center;
     -webkit-box-align: center;
 }
+
 .footer-content {
-   display:block;
-   -webkit-align-items:unset;
-   -ms-flex-align:unset;
-   -webkit-box-align:unset;
-   flex-direction:unset;
+    display: block;
+    -webkit-align-items: unset;
+    -ms-flex-align: unset;
+    -webkit-box-align: unset;
+    flex-direction: unset;
 }
-.footer-logo{
-    height:4em;
-    display:block;
+
+.footer-logo {
+    height: 4em;
+    display: block;
 }
+
 @media only screen and (max-width: 799px) {
-    body{
+    body {
     }
+
     .row {
         display: unset;
     }
@@ -407,31 +437,36 @@ main.content {
 
     main.content {
         width: 100%;
-        margin-bottom:0;
+        margin-bottom: 0;
     }
 
     .content-top {
         width: 100%;
     }
-    .footer{
-        margin-top:0;
+
+    .footer {
+        margin-top: 0;
     }
 }
+
 @media only screen and (max-height: 569px) {
     .profile-image-main {
         width: 150px;
         height: 150px;
         margin-top: -75px;
     }
-    .content-top.has-profile-image{
-        height:75px;
+
+    .content-top.has-profile-image {
+        height: 75px;
     }
 }
+
 @media only screen and (max-width: 499px) {
     .big-text {
         font-size: 3em;
     }
 }
+
 @media only screen and (max-height: 440px) {
     .hero {
         min-height: 80vh;
