@@ -51,8 +51,8 @@ body {
 }
 
 .header {
-    background-color: rgba(255,255,255,1);
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    background-color: rgba(0,14,27,1);
+    color:white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -70,7 +70,6 @@ body {
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    color: rgb(0,14,27);
     z-index: 900;
     transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
 }
