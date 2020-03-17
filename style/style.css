@@ -40,7 +40,9 @@ hr {
 span.center {
     display: block;
 }
-
+.spacer{
+	height:55px;
+}
 body {
     font-family: Quicksand, sans-serif;
     margin: 0;
