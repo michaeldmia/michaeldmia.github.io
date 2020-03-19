@@ -167,7 +167,9 @@ body {
 }
 
 .site-logo {
-    height:4em;
+    height:75px;
+    padding-top:15px;
+    padding-bottom:15px;
     object-fit: contain;
     object-position: left;
     width: auto;
@@ -175,7 +177,7 @@ body {
 }
 
 .header-active .site-logo {
-    height:3em;
+    height:65px;
     object-fit: contain;
     object-position: left;
     width: auto;
@@ -463,11 +465,11 @@ main.content {
     .big-text {
         font-size: 3em;
     }
-    .header.site-logo{
-        height:75px;
+    .header .site-logo{
+        height:65px;
     }
     .header-active.site-logo{
-        height:65px;
+        height:55px;
     }
 }
 @media only screen and (max-height: 440px) {
@@ -489,9 +491,9 @@ main.content {
 }
 @media only screen and (max-height:399px) {
     .header.site-logo{
-        height:65px;
+        height:55px;
     }
     .header-active.site-logo{
-        height:55px;
+        height:45px;
     }
 }
