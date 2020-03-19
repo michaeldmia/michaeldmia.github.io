@@ -186,7 +186,9 @@ body {
 .accordion {
     background-color: white;
     cursor: pointer;
-    padding: 18px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:0;
     width: 100%;
     text-align: left;
     border: none;
@@ -208,7 +210,8 @@ body {
     }
 
 .panel {
-    padding: 0 18px;
+    padding-top:25px;
+    padding-bottom:25px;
     display: none;
     transition: 0.3s;
     background-color: white;
