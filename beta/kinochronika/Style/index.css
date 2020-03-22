@@ -1,0 +1,413 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;
+    color:black;
+    font-family:'Open Sans',sans-serif;
+    background-image:url(../Assets/images/craft-paper.jpg);
+    background-repeat:repeat;
+    background-attachment:fixed;
+    overflow-x:hidden;
+}
+/*Font*/
+h1{
+    font-family:'Anonymous Pro', monospace;
+}
+.center{
+    text-align:center;
+}
+.w {
+    color:white;
+}
+.featured{
+    padding-bottom:1em;
+    padding-top:1em;
+    font-family:'Anonymous Pro', monospace;
+}
+.inline-text{
+    display:inline-block;
+}
+/*Header*/
+.site-title{
+    font-family:'Anonymous Pro', monospace;
+}
+a.site-title{
+    color:inherit;
+    text-decoration:none;
+    font-size:2em;
+    font-weight:bold;
+}
+.site-logo{
+    height:40px;
+    display:block;
+}
+.main-site-header{
+    height:125px;
+    padding-top:2.5em;
+    padding-bottom:2.5em;
+    display:-ms-flexbox;
+    display:-webkit-flex; 
+    display:flex;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    align-items:center;
+    z-index:9999;
+    background-color:inherit;
+    position:relative;
+    width:100%;
+    transition:height 0.4s;
+}
+.main-site-header-static{
+    height:125px;
+    padding-top:2.5em;
+    padding-bottom:2.5em;
+    display:-ms-flexbox;
+    display:-webkit-flex; 
+    display:flex;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    align-items:center;
+    z-index:9999;
+    background-color:inherit;
+    position:relative;
+    width:100%;
+    transition:height 0.4s;
+}
+.header-content{
+    display:flex;
+    display:-ms-flexbox;
+    display;-webkit-flex;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    align-items:center;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header-content:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.title-area{
+    width:33%;
+    float:left;
+}
+.nav-area{
+    width:66%;
+    float:left;
+    text-align:right;
+}
+/*Navigation*/
+.nav-area ul{
+    list-style-type:none;
+    padding:0;
+    text-align:right;
+}
+.nav-area ul li{
+    display:inline-flex;
+    padding-left:1.25em;
+}
+.nav-area ul a{
+    font-family:'Anonynmous Pro', monospace;
+    text-align:right;
+    color:inherit;
+    text-decoration:none;
+}
+.nav-area a:hover{
+    text-decoration:underline;
+}
+.topnav {
+  overflow: hidden;
+  background-color:transparent;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color:inherit;
+  text-decoration: none;
+  font-family:'Anonymous Pro', monospace;
+  padding-left:1.25em;
+}
+.topnav a.active {
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+.responsive{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.nav-spacer{
+    height:50px;
+    display:none;
+}
+/*Fixed top Banner*/ 
+.support-banner-fixed{
+    display:-ms-flexbox;
+    display:-webkit-flex; 
+    display:flex;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    align-items:center;
+    position:fixed;
+    width:100%;
+    height:50px; 
+    top:0;
+    left:0;
+    z-index:999999;
+    background-color:black; 
+    border-bottom:thin solid;
+    border-bottom-width:1px;
+    border-bottom-color:#f2f2f2;
+    color:white;
+    font-family:'Anonymous Pro', monospace;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.support-banner-spacer{
+    height:50px;
+}
+.support-banner-fixed a{
+    color:white;
+}
+/*Featured Content*/
+.hero{
+    height:85vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    margin:0; !important;
+}
+.hero-content-container{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}
+.hero-content{
+    background-color:#f2f2f2;
+    margin:0 !important;
+    width:60%;
+    font-size:1.25em;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:1em;
+    font-family:'Anonymous Pro', monospace;
+    background-image:url(../Assets/images/craft-paper.jpg);
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+.fixed-bg{
+    background-attachment:Fixed;
+}
+/*Page Content*/
+main.page-content{
+    padding-top:2em;
+    padding-bottom:2em;
+}
+.row{
+    display:-ms-flexbox;
+    display;-webkit-flex;
+    display:flex;
+}
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.main-content{
+    float:left;
+    width:60%;
+    padding-right:1em;
+}
+.sidebar{
+    border-left: thin solid;
+    border-left-color:black;
+    float:left;
+    padding-left:1em;
+    width:40%;
+}
+.column-half{
+    width:50%;
+    float:left;
+    padding-left:1em;
+    padding-right:1em;
+}
+.column-third{
+    width:33.33%; 
+    float:left;
+    padding-left:1em;
+    padding-right:1em;
+}
+/*Site Footer*/
+.main-site-footer{
+    padding-top:2em;
+    padding-bottom:2em;
+}
+/*FontAwesome Icons*/ 
+.fa{
+    display:block;
+}
+.fa-link{
+    color:inherit;
+    text-decoration:none;
+}
+.fa-link:hover{
+    opacity:0.5;
+}
+/*Responsive*/
+@media screen and (max-width: 991px) {
+    .hero{
+        background-position:center;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .hero-content{
+        width:100%;
+    }
+    .column-third{
+        width:50%;
+        padding-bottom:1em;
+    }
+    .site-logo{
+        height:30px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    body{
+        background-image:none;
+        background-color:#f2f2f2;
+    }
+    .hero-content{
+        background-color:#f2f2f2;
+        background-image:none;
+    }
+    .row{
+        display:block;
+    }
+    .main-content{
+        width:100%;
+        float:none;
+        display:block;
+        padding-left:0;
+        padding-right:0;
+    }
+    .sidebar{
+        display:block;
+        width:100%;
+        float:none;
+        border-top:thin solid;
+        border-left:none;
+    }
+    .main-site-header{
+        height:unset;
+    }
+    .header-content{
+        display:block;
+        background-color:#f2f2f2;
+        position:absolute;
+        top:0;
+        padding-top:1.25em;
+    }
+    .nav-area{
+        display:block;
+        width:100%;
+        float:none;
+        text-align:center;
+        position:fixed;
+        top:0;
+        left:0;
+        background-color:#f2f2f2;
+        padding-left:5%;
+        padding-right:5%;
+        border-bottom:thin solid;
+        border-bottom-color:black;
+    }
+    .title-area{
+        display:block;
+        float:none;
+        width:100%;
+    }
+    .nav-area ul li{
+        display:block;
+        float:none;
+        border-top:black;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+    }
+    .support-banner-fixed{
+        position:initial;
+        height:unset;
+    }
+    .support-banner-spacer{
+        display:none;
+    }
+    .nav-spacer{
+        display:block;
+    }
+    .inline-text{
+        display:block;
+    }
+    .topnav a{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        z-index:999999;
+        padding-left:0;
+        padding-bottom:1em;
+    }
+    .topnav .icon{
+        height:40px;
+    }
+}
+@media screen and (max-width: 666px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    display: block;
+    font-size:1.25em;
+  }
+}
+@media screen and (max-width: 666px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+  }
+}
+@media screen and (max-width:566px) {
+    .column-third{
+        display:block;
+        float:none;
+        padding-left:none;
+        padding-right:none;
+        width:100%;
+    }
+    .hero-content{
+        font-size:1em;
+    }
+}
+@media screen and (max-width:321px){
+    .header-content .site-title{
+        font-size:1.25em;
+    }
+}
