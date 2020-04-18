@@ -8,6 +8,7 @@ noscript{
     width:100%;
     position:fixed;
     bottom:0;
+    z-index:99999;
 }
 h1, h2, h3, h4, small {
     font-family: montserrat;
