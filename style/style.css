@@ -1,7 +1,11 @@
 ﻿* {
     box-sizing: border-box;
 }
-
+noscript{
+    color:black;
+    background-color:white;
+    padding:25px;
+}
 h1, h2, h3, h4, small {
     font-family: montserrat;
 }
@@ -53,7 +57,6 @@ body {
     overflow-x: hidden;
     position: relative;
 }
-
 .header {
     background-color: rgba(0,14,27,1);
     color:white;
