@@ -1,4 +1,10 @@
-﻿* {
+﻿body{
+    padding-top:105px;
+}
+body.min{
+    padding-top:85px;
+}
+* {
     box-sizing: border-box;
 }
 noscript{
@@ -62,8 +68,8 @@ body {
     position: relative;
 }
 .header {
-    background-color: rgba(0,14,27,1);
-    color:white;
+    background-color:aliceblue;
+    color:inherit;
     position: fixed;
     top: 0;
     width: 100%;
@@ -86,8 +92,6 @@ body {
 }
 .header-active {
     transition: background-color 0.3s, box-shadow 0.3s, height 0.3s, width 0.3s;
-    background-color: rgba(0,14,27,1);
-    color: white;
     box-shadow: none;
     height: 85px;
     margin-left: auto;
@@ -95,9 +99,7 @@ body {
     left: 0;
     right: 0;
 }
-.header-min {
-    background-color: rgba(0,14,27,1);
-    color: white;
+.header.min {
     position: fixed;
     top: 0;
     width: 100%;
@@ -253,14 +255,6 @@ body {
         opacity: 0.5;
         background-color: transparent;
     }
-/*****/
-.initial {
-    margin-top: 105px;
-}
-
-.initial-min {
-    margin-top: 85px;
-}
 
 .hero {
     min-height: 60vh;
@@ -326,14 +320,10 @@ body {
     margin-right: auto;
     width: 90%;
     margin: 0 auto !important;
-    border-top: thin solid;
-    border-right: thin solid;
-    border-left: thin solid;
-    border-color: rgba(0,0,0,0.1);
 }
 
     .content-top.has-profile-image {
-        height: 125px;
+        height: 140px;
     }
 
 .content-top-container {
@@ -354,10 +344,6 @@ main.content {
     position: relative;
     margin: 0 auto !important;
     overflow-x: hidden;
-    border-bottom: thin solid;
-    border-left: thin solid;
-    border-right: thin solid;
-    border-color: rgba(0,0,0,0.1);
 }
 /*Multi Column Layout*/
 .row:after {
@@ -384,24 +370,25 @@ main.content {
 }
 /*Profile Img*/
 .profile-image-main {
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
+    width:250px;
+    height:250px;
+    object-fit:;
     border-radius: 50%;
     margin-top: -125px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .profile-image-container {
-    width: 90%;
+    width:90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 9px;
+    height:1px;
 }
 /*footer*/
 .footer {
-    background-color: rgba(0,14,27,1);
-    color: white;
+    background-color:inherit;
+    color:inherit;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2.5%;
@@ -431,8 +418,15 @@ main.content {
 
 @media only screen and (max-width: 799px) {
     body {
+       padding-top:0;
     }
-
+    .header{
+        position:relative;
+    }
+    .header-active{
+        position:relative;
+        height:105px;
+    }
     .row {
         display: unset;
     }
@@ -455,7 +449,6 @@ main.content {
         margin-top: 0;
     }
 }
-
 @media only screen and (max-height: 569px) {
     .profile-image-main {
         width: 150px;
