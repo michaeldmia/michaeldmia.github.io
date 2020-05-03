@@ -193,6 +193,9 @@ body {
 }
 
 /*****/
+.accordion span.center{
+    padding-top:25px;
+}
 .accordion {
     background-color: white;
     cursor: pointer;
