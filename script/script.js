@@ -5,7 +5,7 @@ function createSticky(sticky) {
     
     if (typeof sticky !== "undefined") {
 
-        var pos = sticky.offset().top + 105,
+        var pos = sticky.offset().top + 10,
                 win = $(window);
             
         win.on("scroll", function() {
