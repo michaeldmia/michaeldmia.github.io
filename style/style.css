@@ -4,6 +4,12 @@
     background-size:cover;
     background-attachment:fixed;
     background-position:center;
+    font-family: Quicksand, sans-serif;
+    margin: 0;
+    background-color:aliceblue;
+    color: rgb(0,14,27);
+    overflow-x: hidden;
+    position: relative;
 }
 body.min{
     padding-top:85px;
@@ -63,14 +69,7 @@ span.center {
 .spacer{
 	height:55px;
 }
-body {
-    font-family: Quicksand, sans-serif;
-    margin: 0;
-    background-color: aliceblue;
-    color: rgb(0,14,27);
-    overflow-x: hidden;
-    position: relative;
-}
+
 .header {
     background-color:white;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.05);
