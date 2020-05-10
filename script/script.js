@@ -5,7 +5,7 @@ function createSticky(sticky) {
     
     if (typeof sticky !== "undefined") {
 
-        var pos = sticky.offset().top + 10,
+        var pos = sticky.offset().top + 1,
                 win = $(window);
             
         win.on("scroll", function() {
@@ -26,6 +26,3 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 } 
-
-var footerParaHeight = $(".footer").height();
-$(".content").css("margin-bottom",footerParaHeight);
