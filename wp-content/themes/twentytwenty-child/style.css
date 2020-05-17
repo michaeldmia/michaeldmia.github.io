@@ -1,0 +1,12 @@
+@import url("../twentytwenty/style.css");
+#site-header {position: absolute;width: 100vw;transition: box-shadow .4s;}
+#site-header.sticky {position: fixed;width: 100vw;}
+.entry-header {margin-top: 10rem;}
+@media only screen and (max-width:601px) {#site-header {position: relative;}
+	#site-header.sticky {position: relative;box-shadow: none;}
+	.entry-header {margin-top: 0;}}
+.footer-nav-widgets-wrapper {border: none;background: transparent;color: inherit;}
+.footer-top {border: none;}
+#site-footer {background: transparent;color: inherit;border: none;}
+p.powered-by-wordpress {display: none;}
+a.to-the-top {color: inherit;font-weight: 700;}
