@@ -1,4 +1,4 @@
-@import url("../twentytwenty/style.css");
+@import url("../twentytwenty-child/style-parent.css");
 #site-header {position: absolute;width: 100vw;transition: box-shadow .4s;}
 #site-header.sticky {position: fixed;width: 100vw;}
 .entry-header {margin-top: 10rem;}
