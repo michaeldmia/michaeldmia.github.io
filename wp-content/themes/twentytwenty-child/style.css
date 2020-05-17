@@ -5,6 +5,7 @@
 @media only screen and (max-width:601px) {#site-header {position: relative;}
 	#site-header.sticky {position: relative;box-shadow: none;}
 	.entry-header {margin-top: 0;}}
+p {font-family: "Helvetica",sans-serif;}
 .footer-nav-widgets-wrapper {border: none;background: transparent;color: inherit;}
 .footer-top {border: none;}
 #site-footer {background: transparent;color: inherit;border: none;}
