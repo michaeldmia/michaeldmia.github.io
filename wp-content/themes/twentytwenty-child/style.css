@@ -1,7 +1,9 @@
 @import url("../twentytwenty-child/style-parent.css");
-#site-header {position: absolute;width: 100vw;transition: box-shadow .4s;}
+#site-header {position: absolute;width: 100vw;}
 #site-header.sticky {position: fixed;width: 100vw;}
 .entry-header {margin-top: 10rem;}
+.admin-bar.showing-menu-modal #site-header {top: 32px;}
+.showing-menu-modal #site-header {position: fixed;top: 0;}
 @media only screen and (max-width:700px) {.entry-header {margin-top: 8.25rem;}}
 @media only screen and (max-width:601px) {#site-header {position: relative;}
 	#site-header.sticky {position: relative;box-shadow: none;}
@@ -12,3 +14,4 @@ p {font-family: "Helvetica",sans-serif;}
 #site-footer {background-color: transparent !important;color: inherit;border: none;}
 p.powered-by-wordpress {display: none;}
 a.to-the-top {color: inherit;font-weight: 700;}
+html {scroll-behavior: auto !important;}
