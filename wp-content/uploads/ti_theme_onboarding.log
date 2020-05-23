@@ -1,0 +1,16 @@
+[23/May/2020:22:01:29] (ℹ️): WordPress Instance Info:
+[23/May/2020:22:01:29] (ℹ️): Home URL : http://localhost/wordpress
+[23/May/2020:22:01:29] (ℹ️): Site URL : http://localhost/wordpress
+[23/May/2020:22:01:29] (ℹ️): WordPress Version : 5.4.1
+[23/May/2020:22:01:29] (ℹ️): Onboarding Version : 1.8.2
+[23/May/2020:22:01:29] (ℹ️): Multisite : No
+[23/May/2020:22:01:29] (ℹ️): Server Info : Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+[23/May/2020:22:01:29] (ℹ️): PHP Version : 7.4.2
+[23/May/2020:22:01:29] (ℹ️): HTTPS : No
+[23/May/2020:22:01:29] (ℹ️): PHP Max Execution Time : 30
+[23/May/2020:22:01:29] (ℹ️): PHP Max Input Vars : 1000
+[23/May/2020:22:01:29] (ℹ️): Max Upload Size : 8388608
+[23/May/2020:22:01:29] (ℹ️): Plugins:
+[23/May/2020:22:01:29] (ℹ️): [PLUGIN] Elementor : v2.9.8 (Elementor.com)
+[23/May/2020:22:01:29] (ℹ️): [PLUGIN] Google Fonts Typography : v2.0.4 (Fonts Plugin)
+[23/May/2020:22:01:29] (ℹ️): [PLUGIN] WP2Static : v6.6.7 (Leon Stafford)
